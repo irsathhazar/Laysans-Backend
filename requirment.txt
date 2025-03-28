@@ -1,0 +1,12 @@
+Django
+djangorestframework
+django-cors-headers
+torch
+torchvision
+torchaudio
+numpy
+nltk
+flask
+flask-cors
+scikit-learn
+pickle5

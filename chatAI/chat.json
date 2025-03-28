@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Do you need any help?",
+        "Hey! I'm here to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out anytime.",
+        "See you later! Have a great day.",
+        "Bye! Let me know if you need assistance in the future."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Happy to assist!"
+      ]
+    },
+    {
+      "tag": "chatbot_info",
+      "patterns": [
+        "What can you do?",
+        "Tell me about yourself",
+        "Who created you?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "I'm a chatbot testla designed to assist with inquiries and provide contact information.",
+        "I can answer your questions, help you get in touch with support, and more!",
+        "I'm here to help with any information you need. Just ask!"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "What is your email?",
+        "Can I reach you by email?",
+        "What's your email address?",
+        "How can I contact you?",
+        "Can I call you?",
+        "How do I get in touch with you?",
+        "Give me your contact details",
+        "How to contact you"
+      ],
+      "responses": [
+        "You can reach us at contact@laysans.com or call us at +91 9500 26 2207.",
+        "For any inquiries, email us at contact@laysans.com or call +91 9500 26 2207.",
+        "You can contact our support team via email: contact@laysans.com or phone: +91 9500 26 2207."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are your working hours?",
+        "When is support available?",
+        "What time can I contact you?"
+      ],
+      "responses": [
+        "Our support team is available Monday to Friday from 9 AM to 6 PM.",
+        "We are open from 9 AM to 6 PM, Monday to Friday.",
+        "Our working hours are 9 AM - 6 PM (Mon-Fri)."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "What kind of projects do you do?",
+        "Do you build websites?",
+        "Do you develop mobile apps?",
+        "Can you help with website maintenance?",
+        "What are your services?",
+        "Tell me about your services.",
+        "Do you provide IT solutions?"
+      ],
+      "responses": [
+        "We specialize in website development, mobile app development, and software solutions.",
+        "Our services include web development, app development, and custom software solutions.",
+        "Yes! We develop websites, mobile applications, and provide IT solutions. Check our portfolio for more details."
+      ]
+    },
+    
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help",
+        "Can you assist me?",
+        "How can I get support?",
+        "Where can I find help?",
+        "I keep to contact you",
+        "I keep to contact u",
+        "keep to contact you",
+        "keep to contact u"
+      ],
+      "responses": [
+        "Sure! Please provide more details about your issue or contact us at contact@laysans.com.",
+        "We're here to help! You can email us at contact@laysans.com or call +91 9500262207.",
+        "For assistance, reach out to our support team via email or phone."
+      ]
+    },
+    {
+      "tag": "about us",
+      "patterns": [
+        "Tell me about your company",
+        "What is your company’s mission?",
+        "Who are you?",
+        "Can you tell me more about your team?"
+      ],
+      "responses": [
+        "We are a leading IT solutions provider specializing in web development, mobile app development, and custom software solutions.",
+        "Our mission is to deliver innovative and effective technology solutions to businesses worldwide.",
+        "We are a passionate team of developers, designers, and IT professionals committed to delivering top-notch services."
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "Can I see your portfolio?",
+        "What projects have you worked on?",
+        "Do you have examples of your work?",
+        "Can you show me some of your previous work?"
+      ],
+      "responses": [
+        "Sure! You can explore our portfolio on our website. We’ve worked on a wide variety of projects, from custom software to responsive websites.",
+        "Check out our portfolio page for a showcase of our previous projects. We're proud of the work we’ve done for our clients.",
+        "You can view our portfolio online to get an idea of the kind of work we do. Feel free to browse!"
+      ]
+    },
+    {
+      "tag": "technologies",
+      "patterns": [
+        "What technologies do you use?",
+        "Which programming languages do you work with?",
+        "What platforms do you develop for?",
+        "Do you use modern technologies?"
+      ],
+      "responses": [
+        "We use the latest technologies including React, Angular, Node.js, Python, Java, Swift, and much more.",
+        "Our team is proficient in a variety of technologies, including front-end frameworks like React, backend technologies like Node.js, and mobile app platforms like iOS and Android.",
+        "We work with modern technologies to ensure your project is scalable, secure, and efficient. From cloud solutions to mobile apps, we’ve got you covered."
+      ]
+    },
+    {
+      "tag": "request a quote",
+      "patterns": [
+        "How can I get a quote?",
+        "Can you give me a price estimate?",
+        "How do I request a quote for a project?",
+        "Can I get a free consultation?"
+      ],
+      "responses": [
+        "You can request a quote by filling out the form on our website or contacting us directly at contact@laysans.com.",
+        "To receive a quote, please provide details about your project, and our team will get back to you with an estimate.",
+        "We offer free consultations! Reach out to us with your project details, and we’ll provide a custom quote for you."
+      ]
+    },
+    {
+      "tag": "client testimonials",
+      "patterns": [
+        "Do you have any client reviews?",
+        "What do your clients say about you?",
+        "Can you share some feedback from your clients?",
+        "Where can I read testimonials?"
+      ],
+      "responses": [
+        "You can read client testimonials on our website to see how we've helped businesses with their IT solutions.",
+        "Our clients have great things to say! Visit our testimonial page to read their feedback and success stories.",
+        "Check out the testimonials from our satisfied clients on our website. We pride ourselves on delivering excellent results."
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": [
+        "Are you hiring?",
+        "Do you have job openings?",
+        "How can I apply for a job with your company?",
+        "What careers are available at your company?"
+      ],
+      "responses": [
+        "Yes, we are always looking for talented individuals to join our team! Visit our careers page for current job openings.",
+        "We are hiring! Check our careers section on the website for available positions and apply online.",
+        "If you're interested in working with us, please visit our careers page to see the available job opportunities."
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What features does your website have?",
+        "Tell me about the features of your website",
+        "What can I do on your website?",
+        "Can I view your services on your website?"
+      ],
+      "responses": [
+        "Our website offers an easy-to-navigate interface with detailed information about our services, portfolio, and client testimonials.",
+        "You can browse our services, read case studies, request a quote, and learn more about our technologies right on our website.",
+        "Our website is designed to provide a seamless experience. You can find information about our team, services, and request support."
+      ]
+    },
+    {
+      "tag": "seo services",
+      "patterns": [
+        "Do you offer SEO services?",
+        "Can you help with search engine optimization?",
+        "What SEO services do you provide?",
+        "Do you improve website rankings?"
+      ],
+      "responses": [
+        "Yes, we offer SEO services to help increase your website's visibility and improve its search engine rankings.",
+        "Our team can help optimize your website with proven SEO techniques to boost your online presence.",
+        "We offer a range of SEO services including on-page SEO, content optimization, and link building to help your website rank higher."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Do you offer website maintenance?",
+        "Can you help maintain my website?",
+        "How do I keep my website updated?",
+        "Do you provide ongoing website support?"
+      ],
+      "responses": [
+        "Yes, we provide ongoing website maintenance and support to ensure your site remains secure and up-to-date.",
+        "Our maintenance services include regular updates, backups, and troubleshooting to keep your website running smoothly.",
+        "We offer a maintenance plan to keep your website secure and up-to-date with the latest features and patches."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Make me laugh",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "Why did the chatbot apply for a job? Because it wanted better AI-tude!"
+      ]
+    }
+  ]
+}
