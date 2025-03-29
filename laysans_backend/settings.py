@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'laysans_backend'
     'Api',
     'corsheaders',
 ]
@@ -47,7 +48,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'thetvshop785@gmail.com'
+EMAIL_HOST_USER = 'irsathhazar@gmail.com'
 EMAIL_HOST_PASSWORD ='tqksxatvdjljmtlc'
 
 MIDDLEWARE = [
