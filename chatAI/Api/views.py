@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from django.core.mail import EmailMessage
 from django.views.decorators.csrf import csrf_exempt
 from .models import *
-from Restapi.settings import EMAIL_HOST_USER
+from laysans_backend.settings import EMAIL_HOST_USER
 from .serizllers import *
 from django.shortcuts import get_object_or_404
 
